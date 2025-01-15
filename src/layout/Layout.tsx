@@ -3,5 +3,5 @@ interface RootLayoutProps {
 }
 
 export function RootLayout({ children }: RootLayoutProps) {
-	return <div className="relative flex h-screen w-full bg-slate-400">{children}</div>;
+	return <div className="font-inter relative flex h-screen w-full bg-[#477A91]">{children}</div>;
 }

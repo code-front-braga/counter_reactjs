@@ -17,13 +17,18 @@ export function Counter() {
 	};
 
 	return (
-		<div className="m-auto flex rounded-xl bg-slate-600 p-6">
-			<div className="flex flex-col items-center gap-10">
-				<span className="text-5xl text-white">{formatNumber(count)}</span>
+		<div className="m-auto flex w-full max-w-[70%] rounded-xl bg-[#A9CDD4] p-6 shadow-xl lg:max-w-[40%]">
+			<div className="flex w-full flex-col items-center gap-10">
+				<div className="w-full rounded-lg bg-[#E1EBF0] p-8 text-center">
+					<span className="text-5xl tracking-wider text-[#477A91]">{formatNumber(count)}</span>
+				</div>
 
-				<div className="flex items-center gap-4">
-					<Button onClick={increaseValue}>Increase</Button>
-					<Button onClick={decreaseValue}>Decrease</Button>
+				<div className="flex flex-col w-full gap-4">
+					<div className="flex w-full items-center gap-4 p-1">
+						<Button onClick={increaseValue}>Aumentar</Button>
+						<Button onClick={decreaseValue}>Diminuir</Button>
+					</div>
+					<Button onClick={() => setCount(0)}>Resetar</Button>
 				</div>
 			</div>
 		</div>
