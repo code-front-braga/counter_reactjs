@@ -1,3 +1,10 @@
+import { Counter } from './components/Counter';
+import { RootLayout } from './layout/Layout';
+
 export default function App() {
-	return <h1>Hello!</h1>;
+	return (
+		<RootLayout>
+			<Counter />
+		</RootLayout>
+	);
 }
