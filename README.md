@@ -1,10 +1,10 @@
-⏲️ Counter
+# ⏲️ Counter
 
 <img src='/public/project_screen.png' alt='Print do Projeto' />
 
 ## Sobre o Projeto:
 
-Este projeto é um contador que oferece três funcionalidades principais:
+Este projeto é um simples contador que oferece três funcionalidades principais:
 
 - Aumentar Número: Incrementa o número atual ao clicar no botão "Aumentar".
 - Diminuir Número: Decrementa o número atual ao clicar no botão "Diminuir".
