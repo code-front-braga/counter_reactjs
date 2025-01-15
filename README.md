@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+⏲️ Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src='/public/project_screen.png' alt='Print do Projeto' />
 
-Currently, two official plugins are available:
+## Sobre o Projeto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é um contador que oferece três funcionalidades principais:
 
-## Expanding the ESLint configuration
+- Aumentar Número: Incrementa o número atual ao clicar no botão "Aumentar".
+- Diminuir Número: Decrementa o número atual ao clicar no botão "Diminuir".
+- Resetar Contador: Restaura o número ao valor inicial (zero) ao clicar no botão "zerar".
+- O contador exibe o número atualizado na tela em tempo real, proporcionando uma interação simples e eficaz para o usuário.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📌 Começando
 
-- Configure the top-level `parserOptions` property like this:
+Para ter acesso a esse projeto, faça os seguintes passos:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **IDE:** Garanta que tenha uma IDE instalada na sua máquina (por exemplo, Visual Studio Code).
+
+- **Node.js e npm:** Certifique-se de que o Node.js e o npm estão instalados na sua máquina.
+
+### **2. Instalando:**
+
+Clone o repositório em sua máquina local:
+
+```bash
+git clone git@github.com:code-front-braga/counter_reactjs.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+#### **1. Instalando as dependências:**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para instalar as dependências de desenvolvimento, faça o seguinte comando:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm i
 ```
+
+### **3. Executando o projeto:**
+
+```bash
+npm run dev
+```
+
+## 🧑🏻‍💻Tecnologias utilizadas:
+
+<div style="flex-basis: 48%;">
+<img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+
+<img align="center" alt="CSS" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg">
+
+<img align="center" alt="TS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+</div>
+<br>
+<br>
+
+## 📝 Licença:
+
+Este projeto está licenciado sob a licença MIT.
+<br>
+<br>
+
+## 🧑🏻‍💻 Autor:
+
+<a href="https://github.com/code-front-braga" style="text-align: justify;">
+<img src="/public/Ab_4.svg" alt="Logo" style="width: 160px;">
+</a>
